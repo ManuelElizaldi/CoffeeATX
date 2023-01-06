@@ -16,3 +16,6 @@
 
 #### Heres is a sample picture of the Dashboard but I encourage that you go visit the Tableau dashboard!
 ![Dashboard](/Data/dashboard.png)
+
+### Opportunities for improvement:
+#### 1) Each page of data had its own parameters to request the data, to access this I created a variable for each request and then appended all the requests into one dataframe, this could be optimized
