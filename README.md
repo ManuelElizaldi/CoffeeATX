@@ -14,7 +14,10 @@
 #### 3) From here we used the Latitude and Longitude columns from the data to map them inside our Tableau dashboard which you can accesss here:
 - [Dashboard](https://public.tableau.com/app/profile/manuel8857/viz/CoffeShopsAustin/Sheet1)
 
-#### Heres is a sample picture of the Dashboard but I encourage that you go visit the Tableau dashboard!
+### Heres is a sample picture of the Dashboard but I encourage that you go visit the Tableau dashboard!
+### How to read this dashboard:
+#### First,each circle is a coffee shop, the bigger the circle, the more reviews it has, this could indicate the popularity of the coffee shop. 
+#### Second, the color of the circle indicates the price range, going from yellow to red. Yellow indicates a cheaper coffee shop and the more redish circles are more expensive. The prices are determined by the overall goods sold in the coffee shop and not the coffee they sell.  
 ![Dashboard](/Data/dashboard.png)
 
 ### Opportunities for improvement:
