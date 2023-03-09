@@ -1,4 +1,4 @@
-# CoffeeATX
+# CoffeeShopsMapForATX
 ### Overview:
 I originally built this project when I first moved to the beautiful city of Austin, Texas. As a huge coffee fanatic I knew there was adventures to be had thanks to the passionate community this city has for this delicious caffeinated beverage. I didn't know anybody who could guide me through the bast array of coffee shops this city has to offer, so I built myself the tool to guide me through this experience.
 
