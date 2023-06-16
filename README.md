@@ -15,7 +15,7 @@ The objective of this project is to utilize Yelp's API to acquire coffee shop da
 - numpy 1.22.4
 - Requests 2.28.2
 ## Relevant Documentation
-- [Yelp's API Documentation](https://www.yelp.com/developers) I followed the documentation to develop this project.
+- [Yelp's API Documentation](https://www.yelp.com/developers).
 
 # Process:
 #### 1) First we accessed the yelp end point -> 'https://api.yelp.com/v3/businesses/{id}', following the documentation's instructions to access only coffeee shops using the corresponding parameters. The file is located in Data/raw_data.csv
