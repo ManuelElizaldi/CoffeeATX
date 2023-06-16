@@ -1,12 +1,26 @@
 # CoffeeShopsMapForATX
-### Introduction:
-I originally built this project when I first moved to the beautiful city of Austin, Texas. As a huge coffee fanatic I knew there was adventures to be had thanks to the passionate community this city has for this delicious caffeinated beverage. I didn't know anybody who could guide me through the vast array of coffee shops this city has to offer, so I built myself the tool to guide me through this experience.
+## Introduction:
+I initially developed this project when I relocated to the wonderful city of Austin, Texas. Being a coffee enthusiast, I was aware that there were numerous adventures awaiting me, thanks to the passionate community that surrounds this delightful caffeinated beverage. However, since I didn't know anyone who could assist me in navigating the extensive selection of coffee shops this city offers, I decided to create a personal tool to guide me through this exciting experience.
 
-### Objective:
-##### This project's objetive is to use Yelp's API to download coffee shop data in Austin, Texas and the sorrounding areas to then map them based on their review and price in a Tableu dashboard.
+## Objective:
+The objective of this project is to utilize Yelp's API to acquire coffee shop data in Austin, Texas, and its surrounding areas. The collected data will then be mapped on a Tableau dashboard, taking into account reviews and pricing information as the mapping criteria.
 
-### Technologies used:
-- [Yelp's API Documentation](https://www.yelp.com/developers) We followed the documentation to develop this project.
+# Technologies Used
+## Programming Language
+- Python 3.8.5
+## Dashboard
+- Google Looker Studio
+## Packages
+- Pandas 1.1.3
+- numpy 1.22.4
+- matplotlib 3.3.2
+- Requests 2.28.2
+- Pygsheets 2.0.6
+- Scikit-Learn 1.2.2
+- Gspread 5.7.2
+- Webbrowser
+## Relevant Documentation
+- [Yelp's API Documentation](https://www.yelp.com/developers) I followed the documentation to develop this project.
 
 ### For this project we used the following python packages:
 - [Pandas](https://pandas.pydata.org/) To process the data.
