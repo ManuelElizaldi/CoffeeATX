@@ -9,25 +9,15 @@ The objective of this project is to utilize Yelp's API to acquire coffee shop da
 ## Programming Language
 - Python 3.8.5
 ## Dashboard
-- Google Looker Studio
+- Tableau
 ## Packages
 - Pandas 1.1.3
 - numpy 1.22.4
-- matplotlib 3.3.2
 - Requests 2.28.2
-- Pygsheets 2.0.6
-- Scikit-Learn 1.2.2
-- Gspread 5.7.2
-- Webbrowser
 ## Relevant Documentation
 - [Yelp's API Documentation](https://www.yelp.com/developers) I followed the documentation to develop this project.
 
-### For this project we used the following python packages:
-- [Pandas](https://pandas.pydata.org/) To process the data.
-- [Requests](https://requests.readthedocs.io/en/latest/) To do the GET requests using Yelp's API.
-
-
-### Process:
+# Process:
 #### 1) First we accessed the yelp end point -> 'https://api.yelp.com/v3/businesses/{id}', following the documentation's instructions to access only coffeee shops using the corresponding parameters. The file is located in Data/raw_data.csv
 #### 2) After extracting the data we used Pandas to do some data wrangling and got the resulting file Data/clean_data.csv
 #### 3) From here we used the Latitude and Longitude columns from the data to map them inside our Tableau dashboard which you can accesss here:
