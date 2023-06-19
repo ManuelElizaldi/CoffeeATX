@@ -23,13 +23,12 @@ The objective of this project is to utilize Yelp's API to acquire coffee shop da
     - `{'term':'coffee shop','limit':50,'offset':10,'radius':40000,'location':'Austin'}`
 4) For the request, set your headers like so:
     - `headers = {"Authorization": f"Bearer {api_key}"}`
-
-1) First we accessed the yelp end point -> 'https://api.yelp.com/v3/businesses/{id}', following the documentation's instructions to access only coffeee shops using the corresponding parameters. The file is located in Data/raw_data.csv
-2) After extracting the data we used Pandas to do some data wrangling and got the resulting file Data/clean_data.csv
-3) From here we used the Latitude and Longitude columns from the data to map them inside our Tableau dashboard which you can accesss here:
-- [Dashboard](https://public.tableau.com/app/profile/manuel8857/viz/CoffeShopsAustin/Sheet1)
+5) Once you have set up the necessary components, you can utilize the requests library to access the URL: `https://api.yelp.com/v3/businesses/search` like so:
+    - `r = requests.get(url = url, params = parameters, headers = headers)`
+6) If your request is successful, you will receive a JSON response containing businesses that match the parameters you have set up. This JSON can be parsed into a dataframe and saved as the basis for our Tableau dashboard.
 
 # Dashboard 
+- [Dashboard](https://public.tableau.com/app/profile/manuel8857/viz/CoffeShopsAustin/Sheet1)
 Heres is a sample picture of the Dashboard but I encourage that you go visit the Tableau dashboard!
 ## How to read this dashboard:
 #### - Each circle is a coffee shop, the bigger the circle, the more reviews it has, this could indicate the popularity of the coffee shop. 
