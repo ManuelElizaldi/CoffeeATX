@@ -22,7 +22,7 @@ The objective of this project is to utilize Yelp's API to acquire coffee shop da
 3) Depending on your requirements, configure your parameters as follows:
     - `{'term':'coffee shop','limit':50,'offset':10,'radius':40000,'location':'Austin'}`
 4) For the request, set your headers like so:
-    - `headers = {'Authorization':'bearer %s' % api_key}` 
+    - `headers = {"Authorization": f"Bearer {api_key}"}`
 
 1) First we accessed the yelp end point -> 'https://api.yelp.com/v3/businesses/{id}', following the documentation's instructions to access only coffeee shops using the corresponding parameters. The file is located in Data/raw_data.csv
 2) After extracting the data we used Pandas to do some data wrangling and got the resulting file Data/clean_data.csv
