@@ -20,7 +20,7 @@ The objective of this project is to utilize Yelp's API to acquire coffee shop da
 1) Sign up for a Yelp developer account [here](https://www.yelp.com/developers) and create an app in this [page](https://www.yelp.com/developers/v3/manage_app).
 2) Once you fill in the forms you will have your API key and Client ID. Make sure you save them for later.
 3) Depending on what you want, set your parameters like so:
-    - ```python {'term':'coffee shop','limit':50,'offset':10,'radius':40000,'location':'Austin'} ```
+    - `{'term':'coffee shop','limit':50,'offset':10,'radius':40000,'location':'Austin'} `
 
 1) First we accessed the yelp end point -> 'https://api.yelp.com/v3/businesses/{id}', following the documentation's instructions to access only coffeee shops using the corresponding parameters. The file is located in Data/raw_data.csv
 2) After extracting the data we used Pandas to do some data wrangling and got the resulting file Data/clean_data.csv
