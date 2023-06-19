@@ -28,12 +28,15 @@ The objective of this project is to utilize Yelp's API to acquire coffee shop da
 6) If your request is successful, you will receive a JSON response containing businesses that match the parameters you have set up. This JSON can be parsed into a dataframe and saved as the basis for our Tableau dashboard.
 
 # Dashboard 
-- [Dashboard](https://public.tableau.com/app/profile/manuel8857/viz/CoffeShopsAustin/Sheet1)
-Heres is a sample picture of the Dashboard but I encourage that you go visit the Tableau dashboard!
-## How to read this dashboard:
-#### - Each circle is a coffee shop, the bigger the circle, the more reviews it has, this could indicate the popularity of the coffee shop. 
-#### - The color of the circle indicates the price range, going from yellow to red. Yellow indicates a cheaper coffee shop, orange indicates a medium price range and red indicates the most expensive. Note: the price range bins where determined by Yelp (cheap $, medium $$, expensive $$$) and their classification  is established by the overall goods sold in the coffee shop and not just the coffee beverages. 
+This is the dashboard I have created to visualize and map all the coffee shops. Feel free to explore the data!
+   -[Dashboard](https://public.tableau.com/app/profile/manuel8857/viz/CoffeShopsAustin/Sheet1)
+
+## Analysis:
+- Each circle represents a coffee shop, and the size of the circle corresponds to the number of reviews it has. This can serve as an indicator of the coffee shop's popularity.
+
+- The color of the circle represents the price range, ranging from yellow to red. Yellow indicates a more affordable coffee shop, orange indicates a medium price range, and red indicates the most expensive. It's important to note that these price range categories were determined by Yelp (cheap $, medium $$, expensive $$$). The classification is based on the overall goods sold in the coffee shop, not just the coffee beverages.
+
 ![Dashboard](/Data/dashboard.png)
 
-### Opportunities for improvement:
-#### 1) Each page of data had its own parameters to request the data, to access this I created a variable for each request and then appended all the requests into one dataframe, this could be optimized
+# Areas of improvement:
+- Each page of data had its own set of parameters for requesting the data. To access this information, I created a variable for each request and then merged all the requests into a single dataframe. However, there is room for optimization in this process.
