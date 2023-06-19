@@ -29,7 +29,7 @@ The objective of this project is to utilize Yelp's API to acquire coffee shop da
 
 # Dashboard 
 This is the dashboard I have created to visualize and map all the coffee shops. Feel free to explore the data!
-   -[Dashboard](https://public.tableau.com/app/profile/manuel8857/viz/CoffeShopsAustin/Sheet1)
+   - [Dashboard](https://public.tableau.com/app/profile/manuel8857/viz/CoffeShopsAustin/Sheet1)
 
 ## Analysis:
 - Each circle represents a coffee shop, and the size of the circle corresponds to the number of reviews it has. This can serve as an indicator of the coffee shop's popularity.
